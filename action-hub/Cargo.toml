@@ -1,0 +1,14 @@
+[package]
+name = "action-hub"
+version = "0.0.4"
+authors = ["Plats"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.0.0"
+near-contract-standards = "4.0.0"
+near-units = "0.2.0"
+uint = "0.9.5"
